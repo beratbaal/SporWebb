@@ -1,0 +1,71 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Hesaplayıcı</title>
+        <link rel="stylesheet" href="stil.css">
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+
+
+    <body>
+        <div class="sablon">
+            <div class="banner"><img src="images/banner.PNG"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="proje.html">Anasayfa</a></li>
+                    <li><a href="programlar.html">Programlar</a>
+                       <ul>
+                           <li><a href="programlar2.html" target="alt">Split Programı</a></li>
+                           <li><a href="programlar.html">Full Body Programı</a></li>
+                           
+                       </ul>
+                      
+                    </li>
+                            
+                    <li><a href="hesaplayıcı.html">Hesaplayıcı</a>
+                      
+                    </li>
+                    <li><a href="supplementler.html">Supplementler</a></li>
+                    
+                </ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="vücutkitletext">Vücut Kütle İndeksi</p>
+                            <form class="vücutkitle" name="KitleForm" >
+            
+                                Kilo(örn:80): <input type = "text" name="kilo" size="10" class="form-control"><br/><br/>
+                                Boy(örn:1.80): <input type="text" name="boy" size="10" class="form-control"><br/><br/>
+                                <input type="button" value="Hesapla" onclick="hesapla()" class="buttonhesapla btn btn-success"><br/><br/><br/>
+                                Vücut Kitle İndeksiniz: <input type="text" name="indeks" size="10" disabled class="form-control"><br/><br/>
+                                Sonuca Göre: <input type="text" name="islemsonucu" size="25" disabled class="form-control"><br /><br />
+                                <input type="reset" value="Temizle" class="buttontemizle btn btn-info" />
+                      
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+     
+             
+              
+                <div class="altkutu" name="alt">
+                    <p class="iletisimtext">İletişim</p>
+                    <a href="https://www.facebook.com"><img src="images/facebook.png" ></a>
+                    <a href="https://twitter.com"><img src="images/twitter.png"></a>
+                    <a href="https://instagram.com"><img src="images/instagram.png"></a></div>
+                
+
+
+        </div>
+
+
+
+        <script type="text/javascript" src="ayar.js"></script>
+
+        
+        <script src="bootstrap.js"></script>
+    </body>
+
+
+
+</html>

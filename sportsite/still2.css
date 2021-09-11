@@ -1,0 +1,40 @@
+.satir_yukseklik{
+    height: 250px;
+}
+.sutun_yukseklik{
+    height: 100px;
+}
+.yuk{
+    height: 500px;
+}
+.logo{
+    height: 50px;
+}
+.kapsayici{
+    background-color: #f32f21;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+   
+}
+.nav-link{
+    color:#0e0909 ;
+    font-weight: bold;
+}
+@media(max-width:768px){
+    .kapsayici{
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    .nav-item{
+        transition: all 0.5s ease;
+    }
+    .nav-item:hover:not(.resim){
+        background-color:#0e0909 ;
+        padding-left: 40px;   
+}
+   .nav-link:hover{
+        color:#f32f21 ;
+   }
+
+
+}

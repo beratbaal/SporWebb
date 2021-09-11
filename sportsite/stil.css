@@ -1,0 +1,149 @@
+.sablon{width: 1000px; height: auto; margin: 30px auto }
+
+.banner{width: 950px; height: 300px; float: left; margin: 0 0 0 0;   text-align: center; text-shadow: 25px; animation-duration: 5s;}
+.menu{position: relative; width: 950px; height: 47px; float:left; margin: 50px 0 0 0;  transition: width 2s; z-index: 3;}
+#slider {width: 950px; height: 350px; float: left; margin: 10px 0 10px 0;  overflow: hidden; position: relative;   }
+
+
+#kontrol{position:absolute; right: 0; bottom: -20px;   padding: 30px;  font-size: 20px;  margin-right: -30px; text-decoration:none ; }
+#kontrol a:hover {color:white; background: rgb(0, 162, 255);; padding: 10px; text-decoration: none; transition: .5s; }
+
+.programlartext{text-align: center; color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333;  }
+.programlar {width: 310px; height: 240px; float: left; margin-top: 20px; -webkit-transform: scale(1,1); -ms-transform: scale(1,1); transform: scale(1,1); transition-duration: 0.3s; z-index: 2; }
+.programlar:hover{cursor: pointer;-webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s; 
+  box-shadow: 10px 70px 20px rgb(0, 162, 255);   
+  z-index: 2; 
+  position:relative;
+  text-align: center; color: #333; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  .basliklar{color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  .programlaricerik{position:relative; width: 700px; height: 500px; float: right; margin-right: 50px; margin-top: -7px;}
+  .fullbodydiv{ width: 240px; height: 225px;  margin-top: 40px; z-index: 3; -webkit-transform: scale(1,1); -ms-transform: scale(1,1); transform: scale(1,1); transition-duration: 0.3s; z-index: 2;}
+  .fullbodydiv:hover{cursor: pointer;-webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    box-shadow: 5px 50px 10px rgb(0, 162, 255);
+    z-index: 2;
+    position:relative;
+    text-align: center; color: #333; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  .fullbodytext{text-align: center;color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333;}
+  .fullbodyicerik{position: relative; width: 680px; height: 480px;}
+  .fullbodylink{position: relative; color:rgb(0, 162, 255) ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333; text-decoration: none; font-size: 55px; margin-top: 150px; }
+  .splitdiv{width: 240px; height: 225px; z-index: 3; background-color: #333; margin-top: 50px;}
+  .splitdiv:hover{cursor: pointer;-webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    box-shadow: 5px 50px 10px rgb(0, 162, 255);
+    z-index: 2;
+    position:relative;
+    text-align: center; color: #333; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  .splittext{text-align: center;color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333;}
+  .splitacıklama{text-align: center; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  .spliticerik{position: relative; width: 680px; height: 480px;}
+  .splitlink{position: relative; color:rgb(0, 162, 255) ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333; text-decoration: none; font-size: 55px;}
+  
+
+.hesaplayıcıtext{text-align: center; color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333;}
+.hesaplayıcı {width: 310px; height: 240px; float: left; margin: 20px 0 0 10px; -webkit-transform: scale(1,1); -ms-transform: scale(1,1); transform: scale(1,1); transition-duration: 0.3s; z-index: 2; }
+.hesaplayıcı:hover{cursor: pointer;-webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s; 
+  box-shadow: 10px 70px 20px rgb(0, 162, 255);   
+  z-index: 2;
+  position:relative;
+  } 
+
+.vücutkitletext{position: relative;margin-top: 100px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:rgb(0, 162, 255) ;}
+.vücutkitle{position: relative; margin-top: 50px;}
+.buttonhesapla{margin-left: 850px;}
+.buttontemizle{margin-left: 850px;}
+.ortacizgi{position: relative; height: 350px; width: 3px; background-color:rgb(0, 162, 255) ; margin-left: 475px; margin-top: -355px; border-radius: 2px; }
+.kalorihesaptext{position: relative; margin-top: -325px;  margin-left: 550px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  color:rgb(0, 162, 255) ;}
+.kalorihesabi{position: absolute; margin-top: -350px; margin-left: 550px; }
+  
+
+
+.supplementlertext{text-align: center; color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333;}
+.supplementler {width: 310px; height: 240px; float: left; margin: 20px 0 0 10px; -webkit-transform: scale(1,1); -ms-transform: scale(1,1); transform: scale(1,1); transition-duration: 0.3s; z-index: 3;}
+.supplementler:hover{cursor: pointer;-webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s; 
+  box-shadow: 10px 70px 20px rgb(0, 162, 255);
+  z-index: 2;
+  position:relative;}
+.supplementleraciklama{text-align: center; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-right: 50px;}
+
+
+
+.altkutu{position:relative; width:  300px; height: 90px; float: left;  margin:110px 0 50px 380px;  }
+.iletisimtext{text-align: center; margin-right: 100px; color:rgb(0, 162, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #333;}
+
+
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 50px;
+  }
+   
+  .menu li{
+    float: left;
+    position: relative;
+    width: 237.5px;
+  }
+   
+  .menu ul li ul{
+    display: none;
+  }
+   
+  .menu ul li:hover ul{
+    display: block;
+    top: 30px;
+  }
+   
+  .menu ul li a{
+    text-decoration: none;
+    background: #333;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 162, 255);
+    border-left: 1px solid #595959;
+    padding: 5px;
+  }
+   
+  .menu ul li ul li a{
+    background: #595959;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    font-size: .8em;
+  }
+   
+  .menu li a:hover{
+    background: rgb(0, 162, 255);
+    transition: .5s;
+    
+  }
+   
+  .menu ul li ul li a:hover{
+    padding-left: 15px;
+    top: 50px;
+    
+   
+    
+  } 

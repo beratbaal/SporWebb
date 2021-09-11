@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hesaplayıcı2</title>
+        <link rel="stylesheet" href="stil.css">
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+    <body>
+        <div class="sablon">
+            <div class="banner"><img src="images/banner.PNG"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="proje.html">Anasayfa</a></li>
+                    <li><a href="programlar.html">Programlar</a>
+                       <ul>
+                           <li><a href="#" target="alt">Split Programı</a></li>
+                           <li><a href="#">Full Body Programı</a></li>
+                           
+                       </ul>
+                      
+                    </li>
+                            
+                    <li><a href="">Hesaplayıcı</a>
+                        <ul>
+                            <li><a href="hesaplayıcı.html">Boy Kilo İndeksi</a></li>
+                            <li><a href="hesaplayıcı.html">Kalori Hesabı</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="supplementler.html">Supplementler</a></li>
+                    
+                </ul>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="kalorihesaptext">Kalori Hesabı</p>
+                    <form class="kalorihesabi" name="KaloriHesap">
+                        Cinsiyet: <input type="radio" name="cinsiyet" value="kadın">Kadın<br/> 
+                                  <input type="radio" name="cinsiyet" value="erkek">Erkek<br/><br/>
+                
+                        Kilo(örn:80): <input type="text" name="kilo" size="10" class="form-control"><br/><br/>
+                        Boy(örn:1.80): <input type="text" name="boy" size="10" class="form-control"><br/><br/>
+                        Yaş(örn:25): <input type="text" name="yas" size="10" class="form-control"><br/><br/>
+                        <input type="button" value="Hesapla" onclick="hesaplacal()" class="buttonhesapla btn btn-success"><br/><br/><br/>
+                        Almanız Gereken Kalori Miktarı: <input type="text" name="kalori" size="10" disabled><br/><br/>
+                        <input type="reset" value="Temizle" class="buttontemizle btn btn-info" />
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="ayar.js"></script>
+
+        
+        <script src="bootstrap.js"></script>
+    </body>
+</html>
